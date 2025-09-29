@@ -22,7 +22,7 @@ min_deg = min(degree_values)
 max_deg = max(degree_values)
 mean_deg = round(sum(degree_values) / len(degree_values), 2)
 
-# Step 5: Frequency and Relative Frequency
+# Step 5: Frequency and Relative Frequency.
 freq = Counter(degree_values)
 total_nodes = len(degree_values)
 

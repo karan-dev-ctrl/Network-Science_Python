@@ -20,7 +20,8 @@ degrees = dict(G.degree())  # stores like key: value(node: degree)
 degree_values = list(degrees.values())
 min_deg = min(degree_values)
 max_deg = max(degree_values)
-mean_deg = round(sum(degree_values) / len(degree_values), 2)
+mean_deg = round(sum(degree_values) / len(degree_values), 2) #sum of all the nodes / total no of nodes
+
 
 # Step 5: Frequency and Relative Frequency.
 freq = Counter(degree_values)
